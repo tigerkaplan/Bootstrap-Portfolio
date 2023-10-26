@@ -1,0 +1,361 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: F5EBE0;
+  box-sizing: border-box;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ============================ Nav&Navbar  =====================================  */
+/* Start Nav&Navbar Section */
+#nav-link{
+  color: white
+}
+nav-link {
+  transition: all 0.2s;
+  position: relative;
+}
+
+.nav-link::after{
+  content: '';
+  opacity: 0;
+  width: 100px;
+  height: 2px;
+  /* background-color: purple; */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+}
+.nav-link:hover{
+  /* text-decoration: underline; */
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+}
+
+/* End Nav&Navbar Section */
+
+/* ============================ Hero =====================================  */
+
+/* Start Hero Section */
+h1{
+  color: #D5BDAF
+}
+
+#hero-section{
+  height: 100vh;
+  background-color: #F5EBE0;
+}
+
+#hero-section h1{
+  color: #321a4a;
+  margin: 150px 125px 50px 10px;
+}
+
+#hero-section p{
+  color: #D5BDAF;
+  margin: 150px 125px 50px 350px;
+}
+
+#hero-section button{
+  height: 80px;
+  width: 160px;
+  margin: 150px 125px 0 0;
+  border: 2px solid #321a4a;
+  background-color: #F5EBE0;
+  color: #321a4a;
+}
+/* End Hero Section */
+
+/* ============================ Work =====================================  */
+
+/* Start Work Section */
+/* .carousel-img {
+  justify-content: center;
+  display: flex;
+  margin-left: 25%;
+
+} */
+
+.container_work {
+  justify-content: center;
+  display: flex;
+  margin-left: 15%;
+}
+.card-img-top {
+  display: block;
+  width: 100%;
+}
+.text-primary {
+  color: #fdcc52;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  font-family: 'Varela Round', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
+
+.btn-outline {
+  color: white;
+  border: 1px solid;
+  border-color: white;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+  color: white;
+  border-color: #fdcc52;
+  background-color: #fdcc52;
+}
+
+.btn {
+  border-radius: 300px;
+  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px;
+}
+
+/* End Work Section  */
+
+/* ============================ Skills =====================================  */
+
+/* Start Skills Section  */
+.skillsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.bars-box{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.bars-box h3, span {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.light-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.6rem;
+  background: hsla(260, 100%, 44%, 0.4);
+  border-radius: 0.5rem;
+}
+
+.percent-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.6rem;
+  background:
+  border-radius: 0.6rem;
+}
+
+.html-bar{
+  width: 95%;
+}
+.css-bar{
+  width: 85%;
+}
+.javasript-bar-bar{
+  width: 75%;
+}
+.html-bar{
+  width: 85%;
+}.html-bar{
+  width: 85%;
+}
+.html-bar{
+  width: 85%;
+}.html-bar{
+  width: 95%;
+}
+.html-bar{
+  width: 75%;
+}
+.uxui-bar{
+  width: 85%;
+}
+.html-bar{
+  width: 95%;
+}
+/* End Skills Section  */
+
+/* ============================ About Me =====================================  */
+
+/* Start About Me Section> */
+#aboutme{
+  width: 100%;
+  padding: 80px, 0px;
+    
+}
+.about-me{
+  width: 1135px;
+  max-width: 96%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-me img{
+  height: auto;
+  width: 430px;
+}
+
+.about-info{
+  width: 550px;
+  }
+
+.about-info h1{
+  
+}
+/* End About Me Section  */
+
+/* ============================ Contact =====================================  */
+
+/* Start Contact Section  */
+
+.bg-black {
+  background-color: #000000 !important;
+}
+
+
+.bg-primary {
+  background: #fdcc52;
+  background: linear-gradient(#fdcc52, #fdc539);
+}
+
+.text-primary {
+  color: #fdcc52;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.bg-primary {
+  background: #fdcc52;
+  background: linear-gradient(#fdcc52, #fdc539);
+}
+.emailContainer {
+  background: url(../images/emailBG.jpg);
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  box-shadow: #000000;
+}
+
+
+/* Contact form */
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid #F2F2F2;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+/* End Contact Section  */
+
+/* ============================ Footer =====================================  */
+
+/* Start Footer Section  */
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-envelope {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: gray;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github   {
+  background: #bb0000;
+  color: white;
+}
+/* End Footer Section  */
