@@ -19,6 +19,10 @@ the project shows that  front-end developer's project work for on it. what kind 
 
 <a target="_blank" href="https://imageupload.io/ba3lVgapUdZ938I"><img  src="https://imageupload.io/ib/PMK6pFB65Fa5FR4_1698152105.png" alt="Screenshot 2023-10-22 105033.png"/></a>
 
+<a href="https://ibb.co/q18wyYv"><img src="https://i.ibb.co/q18wyYv/navbar-hero-sections.png" alt="navbar-hero-sections" border="0"></a> 
+
+
+<a href="https://ibb.co/9s3t849"><img src="https://i.ibb.co/9s3t849/projects.png" alt="projects" border="0"></a>
 
 ## License
 
@@ -44,7 +48,3 @@ This project is used by a developer who want to have idea how a personal portfol
 ## Contributing
 
 Contributions are always welcome!
-=======
-# bootstrap-portfolio
-W3 Bootcamp Challenge- Personal webpage
->>>>>>> 0baf21b3ebe944de75e21dc3b24fb8a1cef19be5
