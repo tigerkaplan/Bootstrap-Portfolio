@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 # Bootstrap Website
 The project about creating a personal portfolio Website using Bootstrap, HTML and CSS.
 
